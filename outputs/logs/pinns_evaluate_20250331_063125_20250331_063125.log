@@ -1,0 +1,12 @@
+2025-03-31 06:31:25,625 - pinns_evaluate_20250331_063125 - INFO - Evaluating PINN for 'logistic' equation
+2025-03-31 06:31:25,625 - pinns_evaluate_20250331_063125 - INFO - Configuration: config/logistic_eq.yaml
+2025-03-31 06:31:25,625 - pinns_evaluate_20250331_063125 - INFO - Device: cpu
+2025-03-31 06:31:25,626 - pinns_evaluate_20250331_063125 - INFO - Model created: SimpleNN
+2025-03-31 06:31:25,626 - pinns_evaluate_20250331_063125 - INFO - Equation created: LogisticEquation
+2025-03-31 06:31:25,627 - pinns_evaluate_20250331_063125 - INFO - Trainer created: LogisticEquationTrainer
+2025-03-31 06:31:25,632 - pinns_evaluate_20250331_063125 - INFO - Model loaded from: outputs/models/model_final.pt (epoch 0)
+2025-03-31 06:31:25,632 - pinns_evaluate_20250331_063125 - INFO - Evaluating logistic equation model...
+2025-03-31 06:31:25,632 - pinns_evaluate_20250331_063125 - INFO - Time domain: [0.0, 1.5]
+2025-03-31 06:31:25,632 - pinns_evaluate_20250331_063125 - INFO - Number of points: 100
+2025-03-31 06:31:27,376 - pinns_evaluate_20250331_063125 - INFO - Evaluation results saved to: outputs/metrics/evaluation_logistic_20250331_063125.json
+2025-03-31 06:31:27,377 - pinns_evaluate_20250331_063125 - INFO - Evaluation completed

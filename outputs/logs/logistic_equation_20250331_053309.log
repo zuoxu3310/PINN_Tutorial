@@ -1,0 +1,62 @@
+2025-03-31 05:33:09,951 - logistic_equation - INFO - Solving Logistic Equation with PINNs
+2025-03-31 05:33:09,951 - logistic_equation - INFO - Configuration: config/logistic_eq.yaml
+2025-03-31 05:33:09,951 - logistic_equation - INFO - Device: cpu
+2025-03-31 05:33:09,964 - logistic_equation - INFO - Model created: SimpleNN
+2025-03-31 05:33:09,965 - logistic_equation - INFO - Equation created: LogisticEquation
+2025-03-31 05:33:09,966 - logistic_equation - INFO - Training data loaded: 5 points
+2025-03-31 05:33:09,968 - logistic_equation - INFO - Trainer created: LogisticEquationTrainer
+2025-03-31 05:33:09,968 - logistic_equation - INFO - Starting training...
+2025-03-31 05:33:09,968 - logistic_equation - INFO - Time domain: [0.0, 1.5]
+2025-03-31 05:33:09,968 - logistic_equation - INFO - Number of points: 100
+2025-03-31 05:33:09,968 - logistic_equation - INFO - Number of collocation points: 10
+2025-03-31 05:33:10,039 - logistic_equation - INFO - Epoch 0/2000 - Loss: 1.453266
+2025-03-31 05:33:10,039 - logistic_equation - INFO -   pde: 0.116315
+2025-03-31 05:33:10,039 - logistic_equation - INFO -   bc: 0.588524
+2025-03-31 05:33:10,039 - logistic_equation - INFO -   data: 0.748427
+2025-03-31 05:33:10,381 - logistic_equation - INFO - Epoch 200/2000 - Loss: 0.000508
+2025-03-31 05:33:10,381 - logistic_equation - INFO -   pde: 0.000417
+2025-03-31 05:33:10,381 - logistic_equation - INFO -   bc: 0.000018
+2025-03-31 05:33:10,381 - logistic_equation - INFO -   data: 0.000073
+2025-03-31 05:33:10,721 - logistic_equation - INFO - Epoch 400/2000 - Loss: 0.000121
+2025-03-31 05:33:10,721 - logistic_equation - INFO -   pde: 0.000046
+2025-03-31 05:33:10,721 - logistic_equation - INFO -   bc: 0.000018
+2025-03-31 05:33:10,721 - logistic_equation - INFO -   data: 0.000057
+2025-03-31 05:33:11,071 - logistic_equation - INFO - Epoch 600/2000 - Loss: 0.000096
+2025-03-31 05:33:11,071 - logistic_equation - INFO -   pde: 0.000025
+2025-03-31 05:33:11,071 - logistic_equation - INFO -   bc: 0.000017
+2025-03-31 05:33:11,071 - logistic_equation - INFO -   data: 0.000054
+2025-03-31 05:33:11,397 - logistic_equation - INFO - Epoch 800/2000 - Loss: 0.000088
+2025-03-31 05:33:11,397 - logistic_equation - INFO -   pde: 0.000019
+2025-03-31 05:33:11,397 - logistic_equation - INFO -   bc: 0.000016
+2025-03-31 05:33:11,398 - logistic_equation - INFO -   data: 0.000053
+2025-03-31 05:33:11,756 - logistic_equation - INFO - Epoch 1000/2000 - Loss: 0.000085
+2025-03-31 05:33:11,756 - logistic_equation - INFO -   pde: 0.000017
+2025-03-31 05:33:11,756 - logistic_equation - INFO -   bc: 0.000015
+2025-03-31 05:33:11,756 - logistic_equation - INFO -   data: 0.000052
+2025-03-31 05:33:12,074 - logistic_equation - INFO - Epoch 1200/2000 - Loss: 0.000083
+2025-03-31 05:33:12,075 - logistic_equation - INFO -   pde: 0.000017
+2025-03-31 05:33:12,075 - logistic_equation - INFO -   bc: 0.000015
+2025-03-31 05:33:12,075 - logistic_equation - INFO -   data: 0.000051
+2025-03-31 05:33:12,392 - logistic_equation - INFO - Epoch 1400/2000 - Loss: 0.000083
+2025-03-31 05:33:12,392 - logistic_equation - INFO -   pde: 0.000017
+2025-03-31 05:33:12,392 - logistic_equation - INFO -   bc: 0.000015
+2025-03-31 05:33:12,392 - logistic_equation - INFO -   data: 0.000051
+2025-03-31 05:33:12,702 - logistic_equation - INFO - Epoch 1600/2000 - Loss: 0.000922
+2025-03-31 05:33:12,702 - logistic_equation - INFO -   pde: 0.000612
+2025-03-31 05:33:12,702 - logistic_equation - INFO -   bc: 0.000058
+2025-03-31 05:33:12,702 - logistic_equation - INFO -   data: 0.000252
+2025-03-31 05:33:13,014 - logistic_equation - INFO - Epoch 1800/2000 - Loss: 0.000086
+2025-03-31 05:33:13,014 - logistic_equation - INFO -   pde: 0.000021
+2025-03-31 05:33:13,014 - logistic_equation - INFO -   bc: 0.000009
+2025-03-31 05:33:13,014 - logistic_equation - INFO -   data: 0.000057
+2025-03-31 05:33:13,323 - logistic_equation - INFO - Epoch 1999/2000 - Loss: 0.000092
+2025-03-31 05:33:13,323 - logistic_equation - INFO -   pde: 0.000025
+2025-03-31 05:33:13,323 - logistic_equation - INFO -   bc: 0.000007
+2025-03-31 05:33:13,323 - logistic_equation - INFO -   data: 0.000060
+2025-03-31 05:33:13,338 - logistic_equation - INFO - Training completed in 3.37 seconds
+2025-03-31 05:33:13,339 - logistic_equation - INFO - Training completed
+2025-03-31 05:33:13,339 - logistic_equation - INFO - Evaluating model...
+2025-03-31 05:33:16,281 - logistic_equation - INFO - Figures saved to outputs/figures
+2025-03-31 05:33:16,281 - logistic_equation - INFO - Results:
+2025-03-31 05:33:16,281 - logistic_equation - INFO -   MSE: 0.000053
+2025-03-31 05:33:16,281 - logistic_equation - INFO - Done!

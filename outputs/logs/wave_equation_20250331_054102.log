@@ -1,0 +1,82 @@
+2025-03-31 05:41:02,191 - wave_equation - INFO - Solving 1D Wave Equation with PINNs
+2025-03-31 05:41:02,191 - wave_equation - INFO - Configuration: config/wave_eq.yaml
+2025-03-31 05:41:02,191 - wave_equation - INFO - Device: cpu
+2025-03-31 05:41:02,201 - wave_equation - INFO - Model created: SimpleNN2
+2025-03-31 05:41:02,201 - wave_equation - INFO - Equation created: WaveEquation
+2025-03-31 05:41:02,203 - wave_equation - INFO - Trainer created: WaveEquationTrainer
+2025-03-31 05:41:02,204 - wave_equation - INFO - Starting training...
+2025-03-31 05:41:02,204 - wave_equation - INFO - Spatial domain: [0.0, 1.0]
+2025-03-31 05:41:02,204 - wave_equation - INFO - Time domain: [0.0, 1.0]
+2025-03-31 05:41:02,204 - wave_equation - INFO - Number of points (spatial): 100
+2025-03-31 05:41:02,204 - wave_equation - INFO - Number of points (time): 150
+2025-03-31 05:41:02,386 - wave_equation - INFO - Epoch 0/3000 - Loss: 0.336163
+2025-03-31 05:41:02,386 - wave_equation - INFO -   pde: 0.000066
+2025-03-31 05:41:02,386 - wave_equation - INFO -   bc_x0: 0.089988
+2025-03-31 05:41:02,386 - wave_equation - INFO -   bc_x1: 0.034765
+2025-03-31 05:41:02,386 - wave_equation - INFO -   init_f: 0.211043
+2025-03-31 05:41:02,386 - wave_equation - INFO -   init_df: 0.000301
+2025-03-31 05:41:25,738 - wave_equation - INFO - Epoch 300/3000 - Loss: 0.052580
+2025-03-31 05:41:25,738 - wave_equation - INFO -   pde: 0.002083
+2025-03-31 05:41:25,738 - wave_equation - INFO -   bc_x0: 0.008138
+2025-03-31 05:41:25,738 - wave_equation - INFO -   bc_x1: 0.012267
+2025-03-31 05:41:25,739 - wave_equation - INFO -   init_f: 0.029356
+2025-03-31 05:41:25,739 - wave_equation - INFO -   init_df: 0.000737
+2025-03-31 05:41:47,734 - wave_equation - INFO - Epoch 600/3000 - Loss: 0.032698
+2025-03-31 05:41:47,734 - wave_equation - INFO -   pde: 0.000470
+2025-03-31 05:41:47,734 - wave_equation - INFO -   bc_x0: 0.008944
+2025-03-31 05:41:47,734 - wave_equation - INFO -   bc_x1: 0.010654
+2025-03-31 05:41:47,734 - wave_equation - INFO -   init_f: 0.012307
+2025-03-31 05:41:47,734 - wave_equation - INFO -   init_df: 0.000323
+2025-03-31 05:42:10,481 - wave_equation - INFO - Epoch 900/3000 - Loss: 0.040786
+2025-03-31 05:42:10,481 - wave_equation - INFO -   pde: 0.002735
+2025-03-31 05:42:10,481 - wave_equation - INFO -   bc_x0: 0.009801
+2025-03-31 05:42:10,481 - wave_equation - INFO -   bc_x1: 0.015749
+2025-03-31 05:42:10,481 - wave_equation - INFO -   init_f: 0.010915
+2025-03-31 05:42:10,481 - wave_equation - INFO -   init_df: 0.001587
+2025-03-31 05:42:33,381 - wave_equation - INFO - Epoch 1200/3000 - Loss: 0.027907
+2025-03-31 05:42:33,382 - wave_equation - INFO -   pde: 0.000594
+2025-03-31 05:42:33,382 - wave_equation - INFO -   bc_x0: 0.007545
+2025-03-31 05:42:33,383 - wave_equation - INFO -   bc_x1: 0.010101
+2025-03-31 05:42:33,383 - wave_equation - INFO -   init_f: 0.009165
+2025-03-31 05:42:33,383 - wave_equation - INFO -   init_df: 0.000502
+2025-03-31 05:42:56,193 - wave_equation - INFO - Epoch 1500/3000 - Loss: 0.024850
+2025-03-31 05:42:56,193 - wave_equation - INFO -   pde: 0.001053
+2025-03-31 05:42:56,193 - wave_equation - INFO -   bc_x0: 0.004620
+2025-03-31 05:42:56,194 - wave_equation - INFO -   bc_x1: 0.009679
+2025-03-31 05:42:56,194 - wave_equation - INFO -   init_f: 0.008209
+2025-03-31 05:42:56,194 - wave_equation - INFO -   init_df: 0.001289
+2025-03-31 05:43:21,149 - wave_equation - INFO - Epoch 1800/3000 - Loss: 0.018268
+2025-03-31 05:43:21,150 - wave_equation - INFO -   pde: 0.001479
+2025-03-31 05:43:21,150 - wave_equation - INFO -   bc_x0: 0.002300
+2025-03-31 05:43:21,150 - wave_equation - INFO -   bc_x1: 0.008899
+2025-03-31 05:43:21,150 - wave_equation - INFO -   init_f: 0.004760
+2025-03-31 05:43:21,150 - wave_equation - INFO -   init_df: 0.000830
+2025-03-31 05:43:59,145 - wave_equation - INFO - Epoch 2100/3000 - Loss: 0.012325
+2025-03-31 05:43:59,146 - wave_equation - INFO -   pde: 0.000641
+2025-03-31 05:43:59,146 - wave_equation - INFO -   bc_x0: 0.000744
+2025-03-31 05:43:59,146 - wave_equation - INFO -   bc_x1: 0.007357
+2025-03-31 05:43:59,147 - wave_equation - INFO -   init_f: 0.002888
+2025-03-31 05:43:59,147 - wave_equation - INFO -   init_df: 0.000693
+2025-03-31 05:44:34,675 - wave_equation - INFO - Epoch 2400/3000 - Loss: 0.010992
+2025-03-31 05:44:34,676 - wave_equation - INFO -   pde: 0.001610
+2025-03-31 05:44:34,679 - wave_equation - INFO -   bc_x0: 0.000644
+2025-03-31 05:44:34,679 - wave_equation - INFO -   bc_x1: 0.004877
+2025-03-31 05:44:34,679 - wave_equation - INFO -   init_f: 0.002386
+2025-03-31 05:44:34,679 - wave_equation - INFO -   init_df: 0.001476
+2025-03-31 05:45:09,650 - wave_equation - INFO - Epoch 2700/3000 - Loss: 0.007248
+2025-03-31 05:45:09,650 - wave_equation - INFO -   pde: 0.001214
+2025-03-31 05:45:09,650 - wave_equation - INFO -   bc_x0: 0.000981
+2025-03-31 05:45:09,650 - wave_equation - INFO -   bc_x1: 0.002725
+2025-03-31 05:45:09,650 - wave_equation - INFO -   init_f: 0.001976
+2025-03-31 05:45:09,650 - wave_equation - INFO -   init_df: 0.000350
+2025-03-31 05:45:38,205 - wave_equation - INFO - Epoch 2999/3000 - Loss: 0.002765
+2025-03-31 05:45:38,206 - wave_equation - INFO -   pde: 0.000603
+2025-03-31 05:45:38,206 - wave_equation - INFO -   bc_x0: 0.000280
+2025-03-31 05:45:38,206 - wave_equation - INFO -   bc_x1: 0.001257
+2025-03-31 05:45:38,206 - wave_equation - INFO -   init_f: 0.000439
+2025-03-31 05:45:38,206 - wave_equation - INFO -   init_df: 0.000186
+2025-03-31 05:45:38,240 - wave_equation - INFO - Training completed in 276.03 seconds
+2025-03-31 05:45:38,241 - wave_equation - INFO - Training completed
+2025-03-31 05:45:38,241 - wave_equation - INFO - Evaluating model...
+2025-03-31 05:45:41,420 - wave_equation - INFO - Figures saved to outputs/figures
+2025-03-31 05:45:41,420 - wave_equation - INFO - Done!

@@ -1,0 +1,58 @@
+2025-03-31 06:31:03,196 - pinns_train_20250331_063103 - INFO - Training PINN for 'logistic' equation
+2025-03-31 06:31:03,196 - pinns_train_20250331_063103 - INFO - Configuration: config/logistic_eq.yaml
+2025-03-31 06:31:03,196 - pinns_train_20250331_063103 - INFO - Device: cpu
+2025-03-31 06:31:03,197 - pinns_train_20250331_063103 - INFO - Model created: SimpleNN
+2025-03-31 06:31:03,197 - pinns_train_20250331_063103 - INFO - Equation created: LogisticEquation
+2025-03-31 06:31:03,197 - pinns_train_20250331_063103 - INFO - Trainer created: LogisticEquationTrainer
+2025-03-31 06:31:03,197 - pinns_train_20250331_063103 - INFO - Training data loaded: 5 points
+2025-03-31 06:31:03,198 - pinns_train_20250331_063103 - INFO - Starting training for logistic equation...
+2025-03-31 06:31:03,198 - pinns_train_20250331_063103 - INFO - Time domain: [0.0, 1.5]
+2025-03-31 06:31:03,198 - pinns_train_20250331_063103 - INFO - Number of points: 100
+2025-03-31 06:31:03,198 - pinns_train_20250331_063103 - INFO - Number of collocation points: 10
+2025-03-31 06:31:03,223 - pinns_train_20250331_063103 - INFO - Epoch 0/2000 - Loss: 3.990897
+2025-03-31 06:31:03,223 - pinns_train_20250331_063103 - INFO -   pde: 0.098844
+2025-03-31 06:31:03,223 - pinns_train_20250331_063103 - INFO -   bc: 1.857182
+2025-03-31 06:31:03,223 - pinns_train_20250331_063103 - INFO -   data: 2.034871
+2025-03-31 06:31:03,529 - pinns_train_20250331_063103 - INFO - Epoch 200/2000 - Loss: 0.002625
+2025-03-31 06:31:03,529 - pinns_train_20250331_063103 - INFO -   pde: 0.002471
+2025-03-31 06:31:03,529 - pinns_train_20250331_063103 - INFO -   bc: 0.000004
+2025-03-31 06:31:03,529 - pinns_train_20250331_063103 - INFO -   data: 0.000151
+2025-03-31 06:31:03,833 - pinns_train_20250331_063103 - INFO - Epoch 400/2000 - Loss: 0.000333
+2025-03-31 06:31:03,833 - pinns_train_20250331_063103 - INFO -   pde: 0.000244
+2025-03-31 06:31:03,833 - pinns_train_20250331_063103 - INFO -   bc: 0.000020
+2025-03-31 06:31:03,833 - pinns_train_20250331_063103 - INFO -   data: 0.000069
+2025-03-31 06:31:04,166 - pinns_train_20250331_063103 - INFO - Epoch 600/2000 - Loss: 0.000211
+2025-03-31 06:31:04,166 - pinns_train_20250331_063103 - INFO -   pde: 0.000131
+2025-03-31 06:31:04,166 - pinns_train_20250331_063103 - INFO -   bc: 0.000020
+2025-03-31 06:31:04,166 - pinns_train_20250331_063103 - INFO -   data: 0.000061
+2025-03-31 06:31:04,499 - pinns_train_20250331_063103 - INFO - Epoch 800/2000 - Loss: 0.000145
+2025-03-31 06:31:04,499 - pinns_train_20250331_063103 - INFO -   pde: 0.000070
+2025-03-31 06:31:04,499 - pinns_train_20250331_063103 - INFO -   bc: 0.000019
+2025-03-31 06:31:04,499 - pinns_train_20250331_063103 - INFO -   data: 0.000057
+2025-03-31 06:31:04,856 - pinns_train_20250331_063103 - INFO - Epoch 1000/2000 - Loss: 0.000111
+2025-03-31 06:31:04,856 - pinns_train_20250331_063103 - INFO -   pde: 0.000039
+2025-03-31 06:31:04,856 - pinns_train_20250331_063103 - INFO -   bc: 0.000017
+2025-03-31 06:31:04,856 - pinns_train_20250331_063103 - INFO -   data: 0.000055
+2025-03-31 06:31:05,219 - pinns_train_20250331_063103 - INFO - Epoch 1200/2000 - Loss: 0.000100
+2025-03-31 06:31:05,219 - pinns_train_20250331_063103 - INFO -   pde: 0.000030
+2025-03-31 06:31:05,219 - pinns_train_20250331_063103 - INFO -   bc: 0.000017
+2025-03-31 06:31:05,219 - pinns_train_20250331_063103 - INFO -   data: 0.000053
+2025-03-31 06:31:05,552 - pinns_train_20250331_063103 - INFO - Epoch 1400/2000 - Loss: 0.000093
+2025-03-31 06:31:05,552 - pinns_train_20250331_063103 - INFO -   pde: 0.000024
+2025-03-31 06:31:05,553 - pinns_train_20250331_063103 - INFO -   bc: 0.000016
+2025-03-31 06:31:05,553 - pinns_train_20250331_063103 - INFO -   data: 0.000053
+2025-03-31 06:31:05,875 - pinns_train_20250331_063103 - INFO - Epoch 1600/2000 - Loss: 0.000087
+2025-03-31 06:31:05,875 - pinns_train_20250331_063103 - INFO -   pde: 0.000020
+2025-03-31 06:31:05,875 - pinns_train_20250331_063103 - INFO -   bc: 0.000016
+2025-03-31 06:31:05,875 - pinns_train_20250331_063103 - INFO -   data: 0.000052
+2025-03-31 06:31:06,261 - pinns_train_20250331_063103 - INFO - Epoch 1800/2000 - Loss: 0.000084
+2025-03-31 06:31:06,261 - pinns_train_20250331_063103 - INFO -   pde: 0.000017
+2025-03-31 06:31:06,261 - pinns_train_20250331_063103 - INFO -   bc: 0.000015
+2025-03-31 06:31:06,261 - pinns_train_20250331_063103 - INFO -   data: 0.000051
+2025-03-31 06:31:06,641 - pinns_train_20250331_063103 - INFO - Epoch 1999/2000 - Loss: 0.000082
+2025-03-31 06:31:06,641 - pinns_train_20250331_063103 - INFO -   pde: 0.000017
+2025-03-31 06:31:06,641 - pinns_train_20250331_063103 - INFO -   bc: 0.000015
+2025-03-31 06:31:06,641 - pinns_train_20250331_063103 - INFO -   data: 0.000051
+2025-03-31 06:31:06,657 - pinns_train_20250331_063103 - INFO - Training completed in 3.46 seconds
+2025-03-31 06:31:06,657 - pinns_train_20250331_063103 - INFO - Training completed
+2025-03-31 06:31:06,657 - pinns_train_20250331_063103 - INFO - Model saved to: outputs/models

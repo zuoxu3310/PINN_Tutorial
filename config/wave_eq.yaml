@@ -1,0 +1,38 @@
+# Configuration for 1D Wave Equation example
+
+# Inherit from default config
+inherit: "default.yaml"
+
+# PDE-specific parameters
+pde:
+  name: "wave"
+  C: 1.0             # Wave speed constant
+  loss_weights:
+    pde: 1.0         # Weight for PDE loss term
+    bc: 1.0          # Weight for boundary condition loss term
+    init_f: 1.0      # Weight for initial condition on f
+    init_df: 1.0     # Weight for initial condition on df/dt
+
+# Domain and discretization
+data:
+  domain_x: [0.0, 1.0]  # Spatial domain
+  domain_t: [0.0, 1.0]  # Time domain
+  n_points_x: 100       # Number of points in spatial dimension
+  n_points_t: 150       # Number of points in time dimension
+
+# Model settings
+model:
+  type: "simple_nn2"    # 2D input model
+  layers: [2, 16, 32, 16, 1]  # [input_dim, hidden_layers..., output_dim]
+  activation: "tanh"
+
+# Training settings
+training:
+  epochs: 3000
+  learning_rate: 1.0e-2
+  optimizer: "Adam"
+  print_every: 300
+
+# Output settings
+output:
+  plot_3d_surface: true    # Create 3D surface plot of solution

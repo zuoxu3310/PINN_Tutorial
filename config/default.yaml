@@ -1,0 +1,37 @@
+# Default configuration for Physics Informed Neural Networks
+
+# Training settings
+training:
+  epochs: 2000
+  learning_rate: 1.0e-2
+  optimizer: "Adam"
+  print_every: 200
+  save_every: 500
+  device: "auto"  # "auto", "cpu", "cuda"
+
+# Model architecture
+model:
+  type: "simple_nn"  # "simple_nn" or "simple_nn2"
+  layers: [1, 16, 32, 16, 1]  # Input size, hidden layers, output size
+  activation: "tanh"  # Activation function
+
+# Data settings
+data:
+  domain_x: [0.0, 1.5]  # Domain for x
+  domain_t: [0.0, 1.0]  # Domain for t (if applicable)
+  n_points_x: 100       # Number of points in x dimension
+  n_points_t: 100       # Number of points in t dimension (if applicable)
+  n_collocation: 10     # Number of collocation points for PDE enforcement
+
+# Logging settings
+logging:
+  level: "INFO"         # Logging level
+  save_dir: "outputs/logs"  # Directory for log files
+  tensorboard: true     # Use TensorBoard for visualization
+
+# Output settings
+output:
+  save_dir: "outputs"    # Base directory for outputs
+  model_dir: "outputs/models"  # Directory for saved models
+  figure_dir: "outputs/figures"  # Directory for figures
+  metrics_dir: "outputs/metrics"  # Directory for metrics

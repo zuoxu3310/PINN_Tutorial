@@ -1,0 +1,17 @@
+{
+  "t_shape": [
+    100,
+    1
+  ],
+  "prediction_shape": [
+    100,
+    1
+  ],
+  "analytical_shape": [
+    100,
+    1
+  ],
+  "metrics": {
+    "mse": 5.047842988955325e-05
+  }
+}

@@ -1,0 +1,43 @@
+# Configuration for Logistic Equation example
+
+# Inherit from default config
+inherit: "default.yaml"
+
+# PDE-specific parameters
+pde:
+  name: "logistic"
+  R: 1.0             # Max growth rate
+  ft0: 1.0           # Initial value at t=0
+  loss_weights:
+    data: 1.0        # Weight for data loss term
+    pde: 1.0         # Weight for PDE loss term
+    bc: 1.0          # Weight for boundary condition loss term
+
+# Training data
+data:
+  domain_x: [0.0, 1.5]  # Domain for t (time variable in this case)
+  n_points_x: 100       # Number of points in t dimension
+  n_collocation: 10     # Number of collocation points
+  train_points:
+    - [1.1437e-04, 1.0000]
+    - [1.4676e-01, 1.0141]
+    - [3.0233e-01, 1.0456]
+    - [4.1702e-01, 1.0753]
+    - [7.2032e-01, 1.1565]
+
+# Model settings
+model:
+  type: "simple_nn"
+  layers: [1, 16, 32, 16, 1]  # [input_dim, hidden_layers..., output_dim]
+  activation: "tanh"
+
+# Training settings
+training:
+  epochs: 2000
+  learning_rate: 1.0e-2
+  optimizer: "Adam"
+
+# Output settings
+output:
+  plot_comparison: true    # Plot comparison with analytical solution
+  plot_collocation: true   # Plot collocation points
